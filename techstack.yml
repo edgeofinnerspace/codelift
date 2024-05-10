@@ -1,0 +1,601 @@
+repo_name: edgeofinnerspace/codelift
+report_id: e894c7bef367ac06cbc9b04c236479e0
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-10T16:07:02+00:00'
+requested_by: ericclemmons
+provider: github
+branch: master
+detected_tools_count: 44
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/edgeofinnerspace/codelift
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/edgeofinnerspace/codelift
+  detection_source: Repo Metadata
+- name: MobX
+  description: Simple, scalable state management
+  website_url: https://github.com/mobxjs/mobx
+  version: 5.15.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5302/17475736.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: packages/codelift/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2019-08-25 18:29:07.000000000 Z
+- name: MobX-State-Tree
+  description: Full-featured reactive state management without the boilerplate
+  website_url: https://mobx-state-tree.js.org/intro/welcome
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/9129/default_c85dc717f6faf8f246f92d33fca5399a349b294f.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/packages/codelift/package.json
+  detection_source: packages/codelift/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-03-08 19:57:00.000000000 Z
+- name: Next.js
+  description: A small framework for server-rendered universal JavaScript apps
+  website_url: https://nextjs.org/
+  version: 9.3.4
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: examples/next/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2019-10-20 03:08:14.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  version: 10.16.3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/.nvmrc
+  detection_source: Repo Metadata
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2019-08-24 21:00:15.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: examples/cra/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-04-06 00:19:59.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/examples/cra/package.json
+  detection_source: examples/cra/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-03-07 06:00:12.000000000 Z
+- name: GraphQL
+  description: A data query language and runtime
+  website_url: http://graphql.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Query Languages
+  image_url: https://img.stackshare.io/service/3820/12972006.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/packages/codelift/package.json
+  detection_source: packages/codelift/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-04-06 00:32:19.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/.github/workflows/release.yml
+  detection_source: ".github/workflows/release.yml"
+  last_updated_by: Andrew Lisowski
+  last_updated_on: 2020-03-08 01:36:30.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 24.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: examples/cra/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2019-04-23 14:29:49.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/.yarnrc
+  detection_source: ".yarnrc"
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-01-26 17:58:21.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/packages/codelift/package.json
+  detection_source: packages/codelift/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2019-08-25 18:29:07.000000000 Z
+- name: Lerna
+  description: A tool for managing JavaScript projects
+  website_url: https://lerna.js.org/
+  version: 3.20.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/6207/OwqAUSQi_400x400.jpg
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-01-25 00:11:12.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.15
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: packages/codelift/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-02-29 03:22:55.000000000 Z
+- name: auto
+  description: Making the Car buying process easier
+  website_url: http://autoportal.com/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2634/quvIzEn2_normal.jpg
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-04-06 00:03:31.000000000 Z
+- name: downshift
+  description: Primitive to build simple, flexible, WAI-ARIA compliant enhanced input
+    React components
+  website_url: https://github.com/paypal/downshift
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10155/no-img-open-source.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/packages/codelift/package.json
+  detection_source: packages/codelift/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-04-06 00:32:19.000000000 Z
+- name: react-dev-utils
+  description: Webpack utilities used by Create React App
+  package_url: https://www.npmjs.com/react-dev-utils
+  version: 10.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16112/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: packages/codelift/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-04-06 00:19:59.000000000 Z
+  vulnerabilities:
+  - name: react-dev-utils OS Command Injection in function `getProcessForPort`
+    cve_id: CVE-2021-24033
+    cve_url: https://github.com/advisories/GHSA-5q6m-3h65-w53x
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 11.0.4
+- name: "@emotion/core"
+  description: "&gt; Simple styling in React"
+  package_url: https://www.npmjs.com/@emotion/core
+  version: 10.0.28
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16475/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: packages/codelift/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-04-06 00:31:04.000000000 Z
+- name: "@emotion/styled"
+  description: Styled API for emotion
+  package_url: https://www.npmjs.com/@emotion/styled
+  version: 10.0.27
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16702/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: packages/codelift/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-03-08 19:57:00.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: examples/cra/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-04-06 00:19:59.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 10.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: examples/cra/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-04-06 00:19:59.000000000 Z
+- name: "@types/classnames"
+  description: TypeScript definitions for classnames
+  package_url: https://www.npmjs.com/@types/classnames
+  version: 2.2.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16431/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: packages/codelift/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-04-06 00:08:40.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 24.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: examples/cra/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-04-06 00:08:40.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.149
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: packages/codelift/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-04-06 00:08:40.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 12.12.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: examples/cra/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-04-06 00:08:40.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 16.9.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: examples/cra/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-04-06 00:19:59.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 16.9.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: examples/cra/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-04-06 00:19:59.000000000 Z
+- name: all-contributors-cli
+  description: Tool to easily add recognition for new contributors
+  package_url: https://www.npmjs.com/all-contributors-cli
+  version: 6.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17020/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-04-06 00:03:31.000000000 Z
+- name: classnames
+  description: A simple utility for conditionally joining classNames together
+  package_url: https://www.npmjs.com/classnames
+  version: 2.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15942/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: packages/codelift/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-03-08 19:57:00.000000000 Z
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-03-07 05:59:55.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 2.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: packages/codelift/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-04-06 00:31:04.000000000 Z
+- name: cross-spawn
+  description: Cross platform child_process#spawn and child_process#spawnSync
+  package_url: https://www.npmjs.com/cross-spawn
+  version: 7.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16069/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: packages/codelift/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-04-06 00:29:17.000000000 Z
+- name: downshift
+  description: A set of primitives to build simple
+  package_url: https://www.npmjs.com/downshift
+  version: 5.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18017/default_ab659b5159df20d1c32f07b936d63628134f5b3d.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: packages/codelift/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-04-06 00:32:19.000000000 Z
+- name: emotion-theming
+  description: A CSS-in-JS theming solution, inspired by styled-components
+  package_url: https://www.npmjs.com/emotion-theming
+  version: 10.0.27
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17722/default_148ef251371a47f69a7acad9f3b25e2ec2ee4aa4.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: packages/codelift/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-03-08 19:57:00.000000000 Z
+- name: graphql-type-json
+  description: JSON scalar types for GraphQL.js
+  package_url: https://www.npmjs.com/graphql-type-json
+  version: 0.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18717/default_5ff3c2909e9193c1059b9d7c259b01b31dca9aea.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: packages/codelift/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-04-06 00:32:19.000000000 Z
+- name: jscodeshift
+  description: A toolkit for JavaScript codemods
+  package_url: https://www.npmjs.com/jscodeshift
+  version: 0.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17820/default_2a0f136cfb588dd9053268b73a18a953e8d65590.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: packages/codelift/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-04-06 00:32:19.000000000 Z
+- name: open
+  description: Open stuff like URLs, files, executables. Cross-platform
+  package_url: https://www.npmjs.com/open
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16245/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: packages/codelift/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-04-06 00:29:17.000000000 Z
+- name: postcss-preset-env
+  description: Convert modern CSS into something browsers understand
+  package_url: https://www.npmjs.com/postcss-preset-env
+  version: 6.7.0
+  license: CC0-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16373/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: examples/next/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-04-06 01:47:37.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: examples/cra/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-04-06 00:19:59.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: examples/cra/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-04-06 00:19:59.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/edgeofinnerspace/codelift/blob/master/yarn.lock
+  detection_source: examples/cra/package.json
+  last_updated_by: Eric Clemmons
+  last_updated_on: 2020-03-07 06:00:12.000000000 Z
