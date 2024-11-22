@@ -1,0 +1,25 @@
+{
+  "name": "codelift-dev",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:14",
+  "forwardPorts": [
+    3000
+  ],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "typescript.tsdk": "/node_modules/typescript/lib",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll.tslint": true
+        },
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "ms-vscode.vscode-typescript-tslint",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  },
+  "postCreateCommand": "yarn install"
+}
